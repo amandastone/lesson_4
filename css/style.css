@@ -1,21 +1,56 @@
+/*
+COLORS:
+orange: #FFB529
+light orange: #FFBE45
+Dark Orange: #B2790F
+Blue: #004FB2
+Light Blue: #2B88FF
+*/
+
+
 body {
     background-color: none;
+    Color: #004FB2
 }
 
 #header {
     width:100%;
-    background-color:beige;
+    background-color:none;
+    min-height: 80px;
+    
+    
 }
 
 #header > h1 {
     margin:0;
-    
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    position: relative;
+    transform: translateY(50%);
 } 
 #nav {
-    width:100%;
-    background-color:aqua;
+    width: 100%;
+    background-color: #3F51B5;
+    min-height: 80px;
+    font-family: 'lato', sans-serif;
+    height: auto;
+}
+#nav > ul {
+     text-align: center;
+    padding: 0;
+    margin: 0;
+    transform: translateY(50%);
 }
 
+#nav > ul > button: hover   {
+    min-width: 120px;
+    color: white;
+    background-color: #FFB529;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;                          5:45
+    
+}
 .menu {
     display: flex;
     background:#d8e8f5;
