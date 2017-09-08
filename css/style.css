@@ -156,8 +156,21 @@ background-color: #B2790F;
     height: 0;
     width: 0; 
     left: -1em;
-    top: .9am;
-    position: relative;           4.5 7:47
+    top: .9em;
+    position: relative;     
+    
+}
+#favorite-sites {
+    background-image: url(img/tech.jpg);
+    border-top:50px #B2798F;
+    border-bottom:5px #004fb2;
+}
+#favorite-sites ul {
+  list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 4opx;
     
 }
 footer {
